@@ -16,7 +16,7 @@ Mycelarium 是一款以地下菌丝网络和生态系统为主题的游戏。本
 
 本项目对应 Steam 正式版 **App ID 5181520**；免费 Demo 使用独立的 **App ID 5371480**。同名游戏可能拥有不同玩法，因此文章会说明所对应的游戏和资料来源。
 
-网站在信息组织上参考 [melvoridle2.online](https://melvoridle2.online/) 的游戏 Wiki 形式，采用独立实现的页面、样式和内容。新站与 [mycelarium.top](https://mycelarium.top/) 是独立部署的项目，About 页面和页脚提供相关站点入口。
+网站采用分类导航、快速入门和专题资料页，使用独立实现的页面、样式和内容。新站与 [mycelarium.top](https://mycelarium.top/) 是独立部署的项目，About 页面和页脚提供相关站点入口。
 
 ## 网站功能
 
