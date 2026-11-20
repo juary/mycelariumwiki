@@ -42,7 +42,10 @@ async function filesUnder(path) {
     )
   ).flat();
 }
-const htmlFiles = (await filesUnder(output)).filter((f) => f.endsWith(".html"));
+const htmlFiles = (await filesUnder(output)).filter(
+  (f) =>
+    f.endsWith(".html") && !f.endsWith("google45b8e9bedfbc396b.html"),
+);
 const pages = new Map(
   await Promise.all(
     htmlFiles.map(async (file) => [
