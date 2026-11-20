@@ -1,0 +1,865 @@
+{
+  "categories": [
+    {
+      "id": "guides",
+      "title": "Guides",
+      "description": "Start your colony, choose a mode and work toward milestones.",
+      "icon": "compass"
+    },
+    {
+      "id": "mushrooms",
+      "title": "Mushrooms",
+      "description": "Discover documented mushroom roles and exploration tools.",
+      "icon": "mushroom"
+    },
+    {
+      "id": "mechanics",
+      "title": "Mechanics",
+      "description": "Understand resources, growth, spores and colony maintenance.",
+      "icon": "sprout"
+    },
+    {
+      "id": "updates",
+      "title": "Updates",
+      "description": "Follow source-based summaries of the developer's announcements.",
+      "icon": "refresh-cw"
+    }
+  ],
+  "articles": [
+    {
+      "slug": "beginner-guide",
+      "category": "guides",
+      "title": "Your first fungal network",
+      "description": "A practical introduction to growth, food, water, terrain and mushroom production in Mycelarium.",
+      "eyebrow": "START HERE",
+      "updated": "2026-11-20",
+      "readTime": 4,
+      "featured": true,
+      "sections": [
+        {
+          "id": "first-steps",
+          "title": "Start small, then follow the resources",
+          "paragraphs": [
+            "Mycelarium begins with a mushroom and develops into a connected underground network. Growth uses a slingshot-style aiming control. Learn the feedback around an achievable nearby target before attempting a long extension.",
+            "Food and water support expansion. Underground food pockets, decaying leaves and nutrients from trees are documented sources; reservoirs and Water Mushrooms supply water. The underground is procedural, so another player's coordinates are not a route shared by every save."
+          ]
+        },
+        {
+          "id": "learning-route",
+          "title": "A suggested learning route",
+          "paragraphs": [
+            "This sequence is editorial advice based on the published systems, rather than a tested optimal build. Use the options and costs displayed in your current save."
+          ],
+          "bullets": [
+            "Choose Exploration if you want the gentler mode described by the developer.",
+            "Inspect food, water and the terrain separating them from your network.",
+            "Compare upgrades with the specific obstacle: distance, water use, extension cost or hard soil.",
+            "Read mushroom roles before investing in production. Do not assume every type is unlocked immediately."
+          ]
+        },
+        {
+          "id": "version-103",
+          "title": "Keep the 1.03 changes in mind",
+          "paragraphs": [
+            "Update 1.03 replaces the underground river with several deeper reservoirs and adds a small replenishment from rain. It also introduces mushroom aging and absorption. Automatic end-of-life absorption requires upgrading absorption first; the notes promise only a small return of food and water.",
+            "After learning the resource loop, explore the mushroom reference, growth upgrades and wind-carried spores. The separate free demo may not include every full-game feature discussed here."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Official Mycelarium Steam store",
+          "url": "https://store.steampowered.com/app/5181520/Mycelarium/"
+        },
+        {
+          "title": "Developer announcement: update 1.02",
+          "url": "https://store.steampowered.com/news/app/5181520/view/675136702174462803"
+        },
+        {
+          "title": "Developer announcement: update 1.03",
+          "url": "https://steamcommunity.com/games/5181520/announcements/detail/1849192144180750"
+        }
+      ],
+      "related": ["resources", "mycelium-upgrades", "mushroom-types"]
+    },
+    {
+      "slug": "game-modes",
+      "category": "guides",
+      "title": "Exploration or Survival?",
+      "description": "Compare the documented mode differences and understand what update 1.03 changes for Survival.",
+      "eyebrow": "CHOOSE YOUR PACE",
+      "updated": "2026-11-16",
+      "readTime": 3,
+      "featured": false,
+      "sections": [
+        {
+          "id": "mode-differences",
+          "title": "Two ways to grow",
+          "paragraphs": [
+            "The developer describes Exploration as the original experience made more relaxed, with fewer animals and more leaves. Survival uses tougher balance. These are qualitative descriptions: the announcements do not publish exact animal counts, starting-resource multipliers or a difficulty formula."
+          ],
+          "table": {
+            "headers": ["Topic", "Exploration", "Survival"],
+            "rows": [
+              [
+                "Positioning",
+                "A more relaxed original experience",
+                "More demanding balance"
+              ],
+              [
+                "Animal and leaf changes in 1.02",
+                "Fewer animals and more leaves",
+                "No numerical comparison published"
+              ],
+              [
+                "Great Migration after 1.03",
+                "Check current objectives",
+                "Explicitly available, including its achievement"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "survival-history",
+          "title": "Why older Survival guides disagree",
+          "paragraphs": [
+            "Update 1.02 removed end goals and evolution tasks from Survival. Update 1.03 subsequently made Great Migration and its achievement available there. A guide saying Survival has no ending may accurately describe the older announcement while missing the later change.",
+            "The 1.03 note names this particular ending. It does not say that every other end goal or evolution task was restored, or establish that all achievements work identically across modes."
+          ]
+        },
+        {
+          "id": "first-mode",
+          "title": "Choosing a first colony",
+          "paragraphs": [
+            "Exploration is our suggested starting point for learning aiming, terrain and resource connections because it follows the developer's gentler positioning. Choose Survival if the additional pressure is part of the experience you want.",
+            "The cited announcements do not document mode-switching, save conversion or every achievement restriction. Read the current in-game options before changing an established save."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Developer announcement: update 1.02",
+          "url": "https://store.steampowered.com/news/app/5181520/view/675136702174462803"
+        },
+        {
+          "title": "Developer announcement: update 1.03",
+          "url": "https://steamcommunity.com/games/5181520/announcements/detail/1849192144180750"
+        },
+        {
+          "title": "Official Mycelarium Steam store",
+          "url": "https://store.steampowered.com/app/5181520/Mycelarium/"
+        }
+      ],
+      "related": ["beginner-guide", "achievements", "update-1-03"]
+    },
+    {
+      "slug": "demo-vs-full-game",
+      "category": "guides",
+      "title": "Demo and full game: what differs?",
+      "description": "Understand the separate Steam releases, documented scope and language differences before installing.",
+      "eyebrow": "BEFORE YOU PLAY",
+      "updated": "2026-11-16",
+      "readTime": 3,
+      "featured": false,
+      "sections": [
+        {
+          "id": "two-releases",
+          "title": "Check the Steam app ID",
+          "paragraphs": [
+            "This wiki covers PLAN KAPKAN's Mycelarium, the Windows ecosystem simulation. Its full release is Steam app 5181520. The free Mycelarium Demo is a separate product, app 5371480; similar names in search results do not identify the same game."
+          ],
+          "table": {
+            "headers": ["Feature", "Free demo", "Full game"],
+            "rows": [
+              ["Steam app ID", "5371480", "5181520"],
+              ["Underground", "Limited area", "Larger procedural underground"],
+              [
+                "Content",
+                "Selected mushrooms and several upgrades",
+                "More resources, upgrades and mutations in its description"
+              ],
+              [
+                "Listed languages at source review",
+                "English",
+                "Twelve languages"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "save-transfer",
+          "title": "A save system does not establish compatibility",
+          "paragraphs": [
+            "The Demo 2.0 announcement added saving to the demo. Neither cited store description documents a demo-to-full-game transfer procedure. Compatibility is unconfirmed in these sources; it should not be advertised as either a promised feature or a proven impossibility.",
+            "Preserve any existing save files and consult current developer guidance before attempting a transfer. Having a save system in both products is not enough evidence that their formats or progression are compatible."
+          ]
+        },
+        {
+          "id": "patch-scope",
+          "title": "Read patch notes for the version you installed",
+          "paragraphs": [
+            "The full-game 1.02 and 1.03 notes describe changes to modes, exploration and resources. They do not establish that every change also shipped in the separate demo.",
+            "The demo can introduce the aiming-and-resource loop. Check each listing for current languages and hardware requirements, and distinguish the game's minimum operating system from the Steam client's own support requirements."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Official Mycelarium Demo Steam store",
+          "url": "https://store.steampowered.com/app/5371480/Mycelarium_Demo/"
+        },
+        {
+          "title": "Official Mycelarium Steam store",
+          "url": "https://store.steampowered.com/app/5181520/Mycelarium/"
+        },
+        {
+          "title": "Developer announcement: Demo 2.0",
+          "url": "https://store.steampowered.com/news/app/5181520/view/675136064593070091"
+        }
+      ],
+      "related": ["beginner-guide", "game-modes", "update-1-03"]
+    },
+    {
+      "slug": "achievements",
+      "category": "guides",
+      "title": "Achievements and growth milestones",
+      "description": "Use published Steam conditions to track growth, production, animal interactions and spores.",
+      "eyebrow": "TRACK YOUR PROGRESS",
+      "updated": "2026-11-16",
+      "readTime": 4,
+      "featured": false,
+      "sections": [
+        {
+          "id": "published-targets",
+          "title": "Nineteen published achievements",
+          "paragraphs": [
+            "The source review recorded nineteen Steam achievements, introduced alongside update 1.02. Their conditions describe targets; they do not reveal every unlock route, mode restriction, retroactive rule or cross-save counting behavior.",
+            "This overview highlights progression and production without listing the more revealing discovery and ending targets. Open the official Steam achievement page when you want the complete list and its spoilers."
+          ]
+        },
+        {
+          "id": "growth",
+          "title": "The five growth thresholds",
+          "paragraphs": [
+            "These are published mycelium-length milestones. They are not promised completion times or measurements of the most efficient upgrade path."
+          ],
+          "table": {
+            "headers": ["Achievement", "Mycelium growth"],
+            "rows": [
+              ["Great start!", "1,000 cm"],
+              ["We're just getting started", "50,000 cm"],
+              ["Serious business", "150,000 cm"],
+              ["My beautiful soil", "450,000 cm"],
+              ["We are the Forest now", "1,000,000 cm"]
+            ]
+          }
+        },
+        {
+          "id": "other-goals",
+          "title": "Production, animals and spores",
+          "paragraphs": [
+            "Small Factory and Industrial revolution require building 20 and 100 Predator Mushrooms. Thirsty Shroom requires producing 1,000 water with Water Mushrooms, while Like French Fries requires consuming 15 fully grown trees with Consumptor Mushroom.",
+            "Repeller achievements name using that mushroom on an animal once and twenty times. Red Alert separately requires scaring off crows and squirrels ten times; its condition does not name the mushroom. Spore targets include twenty launches and a launch from a hedgehog's back. The latter confirms an interaction, but not its complete setup.",
+            "Update 1.03 explicitly makes Great Migration and its achievement available in Survival. Do not extend that statement into undocumented rules for every other achievement."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Published Steam achievement requirements",
+          "url": "https://steamcommunity.com/stats/5181520/achievements/?l=english"
+        },
+        {
+          "title": "Developer announcement: update 1.02",
+          "url": "https://store.steampowered.com/news/app/5181520/view/675136702174462803"
+        },
+        {
+          "title": "Developer announcement: update 1.03",
+          "url": "https://steamcommunity.com/games/5181520/announcements/detail/1849192144180750"
+        }
+      ],
+      "related": ["mushroom-types", "spores", "game-modes"]
+    },
+    {
+      "slug": "mushroom-types",
+      "category": "mushrooms",
+      "title": "Mushroom types and their roles",
+      "description": "A compact reference to mushroom roles supported by official achievements and developer updates.",
+      "eyebrow": "FIELD REFERENCE",
+      "updated": "2026-11-20",
+      "readTime": 4,
+      "featured": true,
+      "sections": [
+        {
+          "id": "confirmed-roles",
+          "title": "Names supported by official evidence",
+          "paragraphs": [
+            "Mycelarium describes specialized mushrooms and automated production. Achievements provide five construction or interaction names; update 1.03 separately documents Navigator and Fauna Shrooms. This reference is not a complete roster or an unlock tree."
+          ],
+          "table": {
+            "headers": ["Mushroom", "What the sources confirm"],
+            "rows": [
+              ["Water Mushroom", "Produces water"],
+              ["Consumptor Mushroom", "Consumes fully grown trees"],
+              ["Repeller Mushroom", "Can be used on an animal"],
+              [
+                "Predator Mushroom",
+                "A buildable type with 20- and 100-build achievements"
+              ],
+              ["Digger Mushroom", "Can be fully upgraded"],
+              ["Navigator Shroom", "Points toward hidden magical mushrooms"],
+              [
+                "Fauna Shroom",
+                "Reduces animal attack frequency threefold in 1.03"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "production",
+          "title": "Read roles before comparing production",
+          "paragraphs": [
+            "Water output is confirmed by Thirsty Shroom, and tree consumption by Like French Fries. Their achievement totals are not per-second production rates. Predator's name alone is insufficient evidence to assign an output, damage value or recipe.",
+            "The fully upgraded Digger achievement confirms an upgrade target, not its complete prerequisites. It also does not establish that Digger upgrades match the six mycelium growth dimensions."
+          ]
+        },
+        {
+          "id": "discovery-and-controls",
+          "title": "Construction and discovery are different tasks",
+          "paragraphs": [
+            "Finding the hidden magical mushrooms is a separate achievement task from building the named production and utility types. Light Shroom generation and Navigator's search role are discussed in the 1.03 announcement.",
+            "Update 1.02 adds 1–8 construction shortcuts without publishing a complete key-to-mushroom mapping. Use the current interface to check assignments, prices and availability instead of treating this list as a starting loadout."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Published Steam achievement requirements",
+          "url": "https://steamcommunity.com/stats/5181520/achievements/?l=english"
+        },
+        {
+          "title": "Developer announcement: update 1.03",
+          "url": "https://steamcommunity.com/games/5181520/announcements/detail/1849192144180750"
+        },
+        {
+          "title": "Developer announcement: update 1.02",
+          "url": "https://store.steampowered.com/news/app/5181520/view/675136702174462803"
+        },
+        {
+          "title": "Official Mycelarium Steam store",
+          "url": "https://store.steampowered.com/app/5181520/Mycelarium/"
+        }
+      ],
+      "related": ["light-mushroom", "navigator-shroom", "fauna-shroom"]
+    },
+    {
+      "slug": "light-mushroom",
+      "category": "mushrooms",
+      "title": "Finding the Light Shroom",
+      "description": "What changed in 1.03, how Navigator fits into exploration, and why old location reports have limits.",
+      "eyebrow": "EXPLORATION NOTES",
+      "updated": "2026-11-20",
+      "readTime": 3,
+      "featured": true,
+      "sections": [
+        {
+          "id": "generation",
+          "title": "Generation changed in update 1.03",
+          "paragraphs": [
+            "The developer reworked Light Shroom generation so it appears earlier in exploration. The same update introduces Navigator Shroom, which points in the direction of hidden magical mushrooms. The announcement does not supply a fixed coordinate or a complete search route.",
+            "Because the underground is procedural, a successful find in one world does not establish a universal location. The wiki's inherited source review did not independently test a discovery route in-game."
+          ]
+        },
+        {
+          "id": "search-checklist",
+          "title": "Organize the search around your current game",
+          "paragraphs": [
+            "Use this checklist to keep observations useful. It is an editorial way to organize exploration, rather than a guarantee that a particular amount of growth will reveal the mushroom."
+          ],
+          "bullets": [
+            "Check your version, mode and whether you installed the separate demo.",
+            "Inspect the Navigator options currently available; no unlock recipe is published in the cited announcement.",
+            "Track which areas you actually inspected instead of assuming the camera path equals a completed search.",
+            "Review food, water and terrain before committing to further expansion."
+          ]
+        },
+        {
+          "id": "older-reports",
+          "title": "Treat red-layer reports as historical leads",
+          "paragraphs": [
+            "Pre-1.03 player discussions describe searches in the red layer, including sideways searches with different results. Those reports precede the generation rework and do not prove current placement, a required direction or a guaranteed distance.",
+            "A missing discovery is not by itself a confirmed bug. For a support report, record the installed version, mode and screenshots of the area you explored. Keep an existing save intact before experimenting with a separate run."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Developer announcement: update 1.03",
+          "url": "https://steamcommunity.com/games/5181520/announcements/detail/1849192144180750"
+        },
+        {
+          "title": "Official Mycelarium Steam store",
+          "url": "https://store.steampowered.com/app/5181520/Mycelarium/"
+        },
+        {
+          "title": "Published Steam achievement requirements",
+          "url": "https://steamcommunity.com/stats/5181520/achievements/?l=english"
+        },
+        {
+          "title": "Historical Light Shroom player discussion",
+          "url": "https://steamcommunity.com/app/5181520/discussions/0/572679917415757945/"
+        }
+      ],
+      "related": ["navigator-shroom", "resources", "update-1-03"]
+    },
+    {
+      "slug": "navigator-shroom",
+      "category": "mushrooms",
+      "title": "Navigator Shroom: a direction to explore",
+      "description": "Understand the directional search tool introduced in update 1.03 without assuming a fixed route.",
+      "eyebrow": "HIDDEN MUSHROOMS",
+      "updated": "2026-11-20",
+      "readTime": 3,
+      "featured": false,
+      "sections": [
+        {
+          "id": "direction",
+          "title": "Follow a direction, then inspect the terrain",
+          "paragraphs": [
+            "The update 1.03 announcement introduces Navigator Shroom as a tool that points toward hidden magical mushrooms. That role helps organize underground exploration, but the source does not specify its exact indicator design, update frequency or range.",
+            "A direction is not a published coordinate or guaranteed clear path. The underground is procedural and includes hard soil and impassable stone. Inspect the terrain and your resource supply while planning further growth."
+          ]
+        },
+        {
+          "id": "light-shroom",
+          "title": "How this relates to Light Shroom",
+          "paragraphs": [
+            "The same patch reworks Light Shroom generation to make it appear earlier. These are two related exploration changes, but the announcement does not explain how Navigator chooses among several undiscovered targets or give a Light-specific route.",
+            "Older player directions can reflect a different generation version and a different procedural world. Keep those reports separate from what the developer actually documents in 1.03."
+          ]
+        },
+        {
+          "id": "availability",
+          "title": "Check availability in your current save",
+          "paragraphs": [
+            "The cited announcement does not publish a construction recipe, upgrade chain, exact price or prerequisite for Navigator. Check the in-game tooltips for the actions available to you. Do not assume a numbered construction shortcut is a documented unlock route.",
+            "The Magic Shrooms achievement establishes a five-discovery target, not Navigator's controls. Any future detailed walkthrough should identify its game version and evidence before claiming a repeatable location."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Developer announcement: update 1.03",
+          "url": "https://steamcommunity.com/games/5181520/announcements/detail/1849192144180750"
+        },
+        {
+          "title": "Official Mycelarium Steam store",
+          "url": "https://store.steampowered.com/app/5181520/Mycelarium/"
+        },
+        {
+          "title": "Published Steam achievement requirements",
+          "url": "https://steamcommunity.com/stats/5181520/achievements/?l=english"
+        }
+      ],
+      "related": ["light-mushroom", "mushroom-types", "resources"]
+    },
+    {
+      "slug": "fauna-shroom",
+      "category": "mushrooms",
+      "title": "Fauna Shroom and animal pressure",
+      "description": "The documented 1.03 attack-frequency change and the distinction between Fauna and Repeller.",
+      "eyebrow": "WILDLIFE",
+      "updated": "2026-11-20",
+      "readTime": 3,
+      "featured": false,
+      "sections": [
+        {
+          "id": "balance",
+          "title": "What Fauna does in 1.03",
+          "paragraphs": [
+            "The developer says Fauna Shroom reduces the frequency of animal attacks threefold in update 1.03. The same note says its power no longer completely eliminates squirrels. Earlier advice promising total squirrel removal may therefore describe older balance.",
+            "This is a statement about attack frequency, not a published damage reduction or a guarantee that every animal disappears. The announcement gives no base attack interval, effect radius, construction cost or stacking rule."
+          ]
+        },
+        {
+          "id": "repeller",
+          "title": "Fauna and Repeller are named separately",
+          "paragraphs": [
+            "Official achievement conditions name using a Repeller Mushroom on an animal. The Fauna note describes a different effect on attack frequency. Those descriptions do not establish shared controls, identical range or interchangeable achievement credit.",
+            "Red Alert separately asks players to scare off crows and squirrels with a mushroom ten times. Its wording does not name Fauna or Repeller, so this wiki does not assign it to either without further evidence."
+          ]
+        },
+        {
+          "id": "mode-context",
+          "title": "Account for your mode as well",
+          "paragraphs": [
+            "Update 1.02 describes Exploration as having fewer animals and more leaves. Fewer animals does not mean an animal-free colony. Survival is described as more demanding, without an exact count comparison.",
+            "Inspect current tooltips and observe the behavior in your own save before spending around an assumed protection radius. This reference follows source notes and achievement wording; it is not a measured combat or balance test."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Developer announcement: update 1.03",
+          "url": "https://steamcommunity.com/games/5181520/announcements/detail/1849192144180750"
+        },
+        {
+          "title": "Developer announcement: update 1.02",
+          "url": "https://store.steampowered.com/news/app/5181520/view/675136702174462803"
+        },
+        {
+          "title": "Published Steam achievement requirements",
+          "url": "https://steamcommunity.com/stats/5181520/achievements/?l=english"
+        }
+      ],
+      "related": ["game-modes", "mushroom-types", "achievements"]
+    },
+    {
+      "slug": "resources",
+      "category": "mechanics",
+      "title": "Food, water and a growing network",
+      "description": "Find the documented resource sources and separate supply problems from blocked routes.",
+      "eyebrow": "THE CORE LOOP",
+      "updated": "2026-11-20",
+      "readTime": 4,
+      "featured": true,
+      "sections": [
+        {
+          "id": "sources",
+          "title": "Where resources come from",
+          "paragraphs": [
+            "The official store describes underground food pockets, decaying leaves and nutrients from trees. Water comes from reservoirs, and the Thirsty Shroom achievement confirms water production through Water Mushrooms. These establish the main resource sources without providing a complete efficiency model."
+          ],
+          "table": {
+            "headers": ["Source", "Documented role"],
+            "rows": [
+              ["Food pockets", "Food found during underground exploration"],
+              ["Fallen leaves", "Decay into food"],
+              ["Trees", "Can provide nutrients"],
+              ["Reservoirs", "Underground water sources"],
+              ["Water Mushrooms", "Produce water"]
+            ]
+          }
+        },
+        {
+          "id": "water-103",
+          "title": "Reservoirs and rain after 1.03",
+          "paragraphs": [
+            "Update 1.03 replaces the underground river with several large, deeper reservoirs. Rain adds a small amount of water to them. The announcement does not publish their coordinates or a replenishment rate, so an older river route may no longer match your world.",
+            "Mushroom absorption is a separate resource return. After upgrading absorption, automatic end-of-life recovery returns a small amount of food and water. Neither that amount nor manual absorption is documented as a full construction refund."
+          ]
+        },
+        {
+          "id": "shortage",
+          "title": "When growth stalls, identify the constraint",
+          "paragraphs": [
+            "Before treating a nearby resource as available, inspect the route. Hard soil and impassable stone are different terrain descriptions; the store does not say soil penetration overrides stone.",
+            "Our planning suggestion is to compare the next action's displayed cost, your current supply and reachable sources before buying an upgrade. A water-efficiency option addresses a different question from reaching a new reservoir. This is a diagnostic checklist, not a tested farming build."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Official Mycelarium Steam store",
+          "url": "https://store.steampowered.com/app/5181520/Mycelarium/"
+        },
+        {
+          "title": "Published Steam achievement requirements",
+          "url": "https://steamcommunity.com/stats/5181520/achievements/?l=english"
+        },
+        {
+          "title": "Developer announcement: update 1.03",
+          "url": "https://steamcommunity.com/games/5181520/announcements/detail/1849192144180750"
+        },
+        {
+          "title": "Developer announcement: update 1.02",
+          "url": "https://store.steampowered.com/news/app/5181520/view/675136702174462803"
+        }
+      ],
+      "related": ["mycelium-upgrades", "mushroom-lifecycle", "beginner-guide"]
+    },
+    {
+      "slug": "mycelium-upgrades",
+      "category": "mechanics",
+      "title": "Choose an upgrade for the obstacle",
+      "description": "Compare six published growth dimensions and match your next purchase to the problem in front of you.",
+      "eyebrow": "GROWTH & PROGRESSION",
+      "updated": "2026-11-20",
+      "readTime": 3,
+      "featured": true,
+      "sections": [
+        {
+          "id": "six-dimensions",
+          "title": "Six published growth dimensions",
+          "paragraphs": [
+            "The Steam feature description names range, width, water efficiency, node cost, budding chance and soil penetration. It does not publish a full numerical upgrade tree, cost curve or universal first purchase.",
+            "Use their names to frame the comparison, then read the actual effect, price and prerequisites in the current interface. Availability can depend on your current game state; this list is not a promise that all options are immediately unlocked."
+          ]
+        },
+        {
+          "id": "problem-first",
+          "title": "Start with the problem you need to solve",
+          "paragraphs": [
+            "The table is editorial planning advice rather than a measured priority ranking. An upgrade and another resource connection can be different responses to the same immediate constraint."
+          ],
+          "table": {
+            "headers": [
+              "Current obstacle",
+              "Option to inspect",
+              "Question before spending"
+            ],
+            "rows": [
+              [
+                "A distant target",
+                "Range",
+                "Is distance the limit, or is the route blocked?"
+              ],
+              [
+                "Water use",
+                "Water efficiency",
+                "Would supply or efficiency address the immediate cost?"
+              ],
+              [
+                "An expensive extension",
+                "Node cost",
+                "Can you afford the action and the upgrade?"
+              ],
+              [
+                "Hard soil",
+                "Soil penetration",
+                "Is this soil rather than impassable stone?"
+              ],
+              [
+                "Width or budding options",
+                "Read current tooltips",
+                "What effect and prerequisites does this save display?"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "separate-systems",
+          "title": "Keep separate upgrade systems separate",
+          "paragraphs": [
+            "The Digger achievement requires building a fully upgraded Digger Mushroom. It does not establish that its upgrade path matches all six mycelium dimensions.",
+            "Update 1.03 also requires upgrading absorption before automatic end-of-life mushroom absorption. That recovery system returns a small amount of food and water, without a published percentage. Compare its role separately from growing farther or changing water use."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Official Mycelarium Steam store",
+          "url": "https://store.steampowered.com/app/5181520/Mycelarium/"
+        },
+        {
+          "title": "Published Steam achievement requirements",
+          "url": "https://steamcommunity.com/stats/5181520/achievements/?l=english"
+        },
+        {
+          "title": "Developer announcement: update 1.03",
+          "url": "https://steamcommunity.com/games/5181520/announcements/detail/1849192144180750"
+        }
+      ],
+      "related": ["resources", "mushroom-lifecycle", "spores"]
+    },
+    {
+      "slug": "mushroom-lifecycle",
+      "category": "mechanics",
+      "title": "Lifespan, decay and absorption",
+      "description": "Understand the mushroom lifecycle described in 1.03 and the requirement for automatic resource recovery.",
+      "eyebrow": "COLONY MAINTENANCE",
+      "updated": "2026-11-20",
+      "readTime": 3,
+      "featured": false,
+      "sections": [
+        {
+          "id": "lifespan",
+          "title": "Mushrooms age and gradually decay",
+          "paragraphs": [
+            "Update 1.03 gives mushrooms a natural lifespan. The developer describes gradual decay and automatic absorption at the end of that life after absorption has been upgraded. The automatic process returns a small amount of food and water.",
+            "The upgrade condition matters. Do not read the announcement as a promise that every aging mushroom automatically refunds resources from the beginning of a save. It does not publish an upgrade cost, complete prerequisite chain or exact lifespan."
+          ]
+        },
+        {
+          "id": "manual",
+          "title": "Absorption can also reorganize the colony",
+          "paragraphs": [
+            "The patch separately introduces absorbing mushrooms to remove them and recover some invested resources. This gives removal a documented role in reorganizing a colony, but the note does not provide a full input sequence or numeric refund table.",
+            "Inspect the controls and any displayed recovery amount before removing a mushroom. No deletion key or full-refund promise is inferred here. Check the current interface rather than following an undocumented shortcut."
+          ]
+        },
+        {
+          "id": "planning",
+          "title": "Plan around the published limits",
+          "paragraphs": [
+            "A small food-and-water return is not a measured production rate and should not be used as an exact forecast. The source does not list lifespans for individual mushroom types, exceptions or recovery percentages.",
+            "If growth becomes unaffordable, compare established food and water sources as well as the available upgrade options. Lifecycle recovery supplements that resource picture; the announcement does not replace reservoir and production planning with a guaranteed refund cycle."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Developer announcement: update 1.03",
+          "url": "https://steamcommunity.com/games/5181520/announcements/detail/1849192144180750"
+        }
+      ],
+      "related": ["resources", "mycelium-upgrades", "mushroom-types"]
+    },
+    {
+      "slug": "spores",
+      "category": "mechanics",
+      "title": "Spores and distant growth",
+      "description": "The role of wind-carried spores, their published achievement targets and what the sources leave open.",
+      "eyebrow": "BEYOND THE NETWORK",
+      "updated": "2026-11-20",
+      "readTime": 3,
+      "featured": false,
+      "sections": [
+        {
+          "id": "wind-carried",
+          "title": "Another way to establish growth",
+          "paragraphs": [
+            "The official Steam description says spores travel on the wind and can establish distant growth points. This gives the colony another expansion route beyond extending the immediate underground network.",
+            "The description does not publish a landing formula, fixed range, launch price or cooldown. It also does not guarantee that a chosen launch reaches a specific point. A precise launch calculator would require evidence beyond the cited store description."
+          ]
+        },
+        {
+          "id": "achievements",
+          "title": "Two published spore targets",
+          "paragraphs": [
+            "Steam achievements confirm both repeated launches and a particular animal interaction. Their wording establishes the targets without providing every control or setup step."
+          ],
+          "table": {
+            "headers": ["Achievement", "Published condition"],
+            "rows": [
+              ["Fly my darlings!", "Shoot spores 20 times"],
+              ["Hedgehog Bus", "Shoot spores from the hedgehog's back"]
+            ]
+          }
+        },
+        {
+          "id": "using-spores",
+          "title": "Inspect the current launch action",
+          "paragraphs": [
+            "Use the current interface to identify the available launch action and its requirements. The 1–8 shortcuts announced in update 1.02 are mushroom-construction shortcuts; the note does not assign a spore-launch key.",
+            "As a planning suggestion, compare what a nearby underground resource connection offers with the possibility of establishing more distant growth. Neither option has a source-backed universal efficiency ranking. Hedgehog Bus does not by itself explain animal positioning, a repeatable setup or whether requirements differ between modes."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Official Mycelarium Steam store",
+          "url": "https://store.steampowered.com/app/5181520/Mycelarium/"
+        },
+        {
+          "title": "Published Steam achievement requirements",
+          "url": "https://steamcommunity.com/stats/5181520/achievements/?l=english"
+        },
+        {
+          "title": "Developer announcement: update 1.02",
+          "url": "https://store.steampowered.com/news/app/5181520/view/675136702174462803"
+        }
+      ],
+      "related": ["resources", "mycelium-upgrades", "achievements"]
+    },
+    {
+      "slug": "update-1-03",
+      "category": "updates",
+      "title": "Update 1.03: exploration and resources",
+      "description": "A source-based summary of Light Shroom generation, Navigator, absorption, reservoirs and Survival changes.",
+      "eyebrow": "PATCH NOTES · NOV 11, 2026",
+      "updated": "2026-11-16",
+      "readTime": 4,
+      "featured": true,
+      "sections": [
+        {
+          "id": "announcement",
+          "title": "What the developer announced",
+          "paragraphs": [
+            "The 1.03 announcement was published November 11, 2026 at 23:05 UTC. This summary records its changes and does not claim independent gameplay testing. The inherited November 20 source review still found 1.03 as the latest announcement in the checked feed; that is a dated observation, not a guarantee about future releases.",
+            "Light Shroom generation was reworked to make it appear earlier. Navigator Shroom was added to point toward hidden magical mushrooms. Neither change provides fixed discovery coordinates or an unlock recipe."
+          ]
+        },
+        {
+          "id": "colony-changes",
+          "title": "Colony, water and Survival changes",
+          "paragraphs": [
+            "Great Migration and its achievement become available in Survival. This follows 1.02's removal of end goals and evolution tasks there; the new note does not restore every other task by implication."
+          ],
+          "bullets": [
+            "Mushrooms gain a natural lifespan and gradual decay. Automatic end-of-life absorption requires upgrading absorption first.",
+            "Manual absorption removes mushrooms and recovers some invested resources; exact refund values are not published.",
+            "Several deeper reservoirs replace the underground river, with small rain replenishment.",
+            "Fauna no longer completely eliminates squirrels; animal attack frequency is reduced threefold."
+          ]
+        },
+        {
+          "id": "quality-of-life",
+          "title": "Interface and quality-of-life changes",
+          "paragraphs": [
+            "The patch adds borderless window mode, native resolution detection at first launch, camera arrows for surface and deepest-network navigation, and an absorption indicator for leaves and worms.",
+            "Save entries display playtime, which the developer says is not retroactive for older saves. The announcement also reports smoother camera movement and bug fixes without hardware benchmarks or a complete key map."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Developer announcement: update 1.03",
+          "url": "https://steamcommunity.com/games/5181520/announcements/detail/1849192144180750"
+        }
+      ],
+      "related": ["light-mushroom", "mushroom-lifecycle", "game-modes"]
+    },
+    {
+      "slug": "update-1-02",
+      "category": "updates",
+      "title": "Update 1.02: modes and milestones",
+      "description": "The November 5 patch introduced achievements, mode changes, construction shortcuts and clickable animal tracking.",
+      "eyebrow": "PATCH ARCHIVE · NOV 5, 2026",
+      "updated": "2026-11-20",
+      "readTime": 3,
+      "featured": false,
+      "sections": [
+        {
+          "id": "historical-context",
+          "title": "A historical patch summary",
+          "paragraphs": [
+            "The developer published update 1.02 on November 5, 2026 at 00:19 UTC. It introduces Steam achievements, changes the mode balance, improves controls, reports performance work and adds a music track.",
+            "Read this as a record of that announcement. Update 1.03 later made Great Migration and its achievement available in Survival, so the original no-end-goals description is not a complete account of later versions."
+          ]
+        },
+        {
+          "id": "modes-and-achievements",
+          "title": "Modes and achievement support",
+          "paragraphs": [
+            "Exploration keeps the original experience with fewer animals and more leaves. Survival offers tougher balance and, in the 1.02 description, removes end goals and evolution tasks. No exact resource multiplier or animal-count comparison is published.",
+            "Steam achievements become available. The reviewed official list contains nineteen targets across growth, mushroom construction, resources, animal interactions, spores and discoveries. Their introduction does not establish retroactive unlock rules or cross-save counting."
+          ]
+        },
+        {
+          "id": "controls",
+          "title": "Construction and animal-tracking controls",
+          "paragraphs": [
+            "The update adds 1–8 keyboard shortcuts for mushroom construction and makes animal trackers clickable so the camera can jump to the selected animal. The note does not map all eight keys to individual mushroom types.",
+            "The developer reports major optimizations and a new music track, but does not supply a measured frame-rate comparison. Treat performance as dependent on your hardware and colony rather than reading the announcement as a benchmark guarantee."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Developer announcement: update 1.02",
+          "url": "https://store.steampowered.com/news/app/5181520/view/675136702174462803"
+        },
+        {
+          "title": "Published Steam achievement requirements",
+          "url": "https://steamcommunity.com/stats/5181520/achievements/?l=english"
+        },
+        {
+          "title": "Developer announcement: update 1.03",
+          "url": "https://steamcommunity.com/games/5181520/announcements/detail/1849192144180750"
+        }
+      ],
+      "related": ["update-1-03", "game-modes", "achievements"]
+    }
+  ]
+}
